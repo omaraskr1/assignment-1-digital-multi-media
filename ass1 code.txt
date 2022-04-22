@@ -1,0 +1,77 @@
+<html>
+<head>
+    <title>  My first html page </title>
+</head>
+<BODY>
+<h1 align="center"> 
+          <B> <FONT SIZE="+4"> Assignment 1 </FONT> 
+</B>
+</h1>
+
+<table width="90%" border="8" cellspacing="3" cellpadding="15" >
+    <tr>
+	
+        <td align="center" > <B >Name</B> </td> 
+        <td align="center",colspan ="2"><B>Value</B></td> 
+        
+    </tr>   
+    <tr>
+       <form  method="get"  action=“ ">
+		<td>Name:</td>
+		<td colspan ="2"> <input type="text" value ="Enter Your Name Here.." />   </td>
+		
+
+
+	</form>
+
+    </tr> 
+ 	<tr>
+       <form  method="get"  action=“ ">
+		<td >Gender:</td>
+		<td colspan ="2"> <input type="radio" name=“gender" value=0 /> male <br />
+			<input type="radio" name=“gender" value=1 checked="checked" /> female <br /></td>
+  	</form>
+	</tr>	
+
+
+	
+
+     </B>
+	<tr>
+       <form  method="get"  action=“ ">
+		<td >Language:</td>
+		<td colspan ="2">
+		<select multiple="multiple">
+		<option value="English">English</option>
+		<option value="Arabic">Arabic</option>
+		<option value="China">China</option>
+
+		</select>
+
+  		</td>
+		
+
+
+	</form>
+
+    </tr>
+	<tr>
+       <form  method="get"  action=“ ">
+		<td rowspan ="4">Comment:</td>
+		<td colspan ="2"> <textarea style="width: 544px; height: 116px;">Enter Your Comment Here.. </textarea></td>
+		
+
+
+	</form>
+
+    </tr> 
+</table> 
+<h1 align="center"> 
+	<input type="submit" />
+	<input type="reset"/>    
+
+</h1>
+
+
+</BODY>
+</HTML>
